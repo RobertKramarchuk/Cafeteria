@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+.contenedorGeneral{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    
+    background:black;
+}
+
+.nav{
+    width:100vw;
+    height:10vh;
+    background:rgb(217, 110, 110);
+}
+.columnas{
+    width:100vw;
+    height:50vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:row;
+    background: grey;
+}
+.col1,.col2{
+    width:33vw;
+    height:50vh;
+    background: violet;
+}
+.col2{
+    width:34vw;
+    background:rgb(121, 32, 47);
+}
+.contFinal{
+    width:100vw;
+    height:40vh;
+    background: rgb(9, 99, 83); 
+}
